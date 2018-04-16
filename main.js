@@ -1,5 +1,5 @@
 var ourreq = new XMLHttpRequest();
-ourreq.open('GET','https://drive.google.com/file/d/13VTNEct9eLhV7afBBppV0Vtz7Javqxbh/view?usp=sharing','jsonp')
+ourreq.open('GET','https://tapos-sarker.github.io/datas.json')
 ourreq.onload = function(){
 	 console.log(ourreq.responseText);
 };
